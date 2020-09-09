@@ -2,9 +2,13 @@
 	export let name;
 </script>
 
-<style>
+<style lang='scss'>
+	$color: red;
+
+	@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
 	h1 {
-		color: purple;
+		color: $color;
 	}
 </style>
 
